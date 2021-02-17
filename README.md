@@ -1,6 +1,6 @@
 # Building a (Parallel) Mandelbrot Renderer in Rust 
 
-The Mandelbrot set is a set of complex numbers that, when rendered, produces really aesthetic
+The Mandelbrot set is a set of complex numbers that, when [rendered][mandelbrot-image], produces really aesthetic
 recursive fractals. Writing a program that renders these fractals is what is often jokingly
 referred to as an "embarrassingly parallel problem". 
 
@@ -49,3 +49,5 @@ Now that we have successfully implemented a single-threaded Mandelbrot renderer,
 it multithreaded!
 
 - [ ] Make our Mandelbrot renderer multithreaded!
+
+[mandelbrot-image]: https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandel_zoom_00_mandelbrot_set.jpg
